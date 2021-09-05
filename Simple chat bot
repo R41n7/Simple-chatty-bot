@@ -40,7 +40,6 @@ fun count() {
         println("!")
     }
 }
-
 fun test() {
     println("Let's test your programming knowledge.")
     println("Why do we use methods?")
@@ -49,9 +48,7 @@ fun test() {
     println("3. To determine the execution time of a program.")
     println("4. To interrupt the execution of a program.")
     val a = readLine()!!.toInt()
-    if (a == 2) {
-        println("println(Congratulations, have a nice day!")
-    } else {
+    if (a != 2) {
         println("Please, try again.")
     }
 }
